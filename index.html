@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        svg(scalable vector graphics)
+        -to create Logo
+
+        SVG vs Canvas
+        1) SVG: resolution independent
+        canvas: resolution dependent
+
+        2)SVG: Text rendering <text> </text>
+        canvas: a bit difficult to render text
+
+        3) SVG: difficult to Event Handling
+        canvas:easy to handle events
+
+        4)svg:no need to write code in javascript
+        canvas: have to write code in javascript
+
+        5) svg:2d and 3d images
+        canvas:game development
+    -->
+    <svg  style="height: 500px; width:500; background-color:lightblue;">
+        <circle r="50" cx="80" cy="80" fill="blue" stroke="black" stroke-width="2"></circle>
+
+        <ellipse rx="150" ry="100" cx="300" cy="150" fill="blue" stroke="black" stroke-width="2"></ellipse>
+
+        <rect height="50" width="30" x="10" y="150" fill="blue" stroke="black" stroke-width="2"></rect>
+        <rect height="50" rx="5" ry="5" width="30" x="50" y="150" fill="blue" stroke="black" stroke-width="2"></rect>
+        <rect height="30" rx="5" ry="5" width="30" x="100" y="150" fill="blue" stroke="black" stroke-width="2"></rect>
+
+        <line x1="0" y1="0" x2="100" y="100" fill="blue" stroke="black" stroke-width="2"></line>
+
+        <polyline points="10 250, 50 250, 50 300, 100, 300,100 350, 150 350" fill="none" stroke="black" stroke-width="2"></polyline>
+
+        <polygon points="340 400, 200 480,450 480" fill="blue" stroke="black" stroke-width="2"></polygon>
+        <text ></text>
+        <line x1="100" y1="350" x2="450" y="100" fill="blue" stroke="black" stroke-width="2"></line>
+    </svg>
+</body>
+</html>
